@@ -15,6 +15,12 @@ export default function Home() {
           <div className={classes.cta}>
             <Link href="/community">Join the Community</Link>
             <Link href="/meals">Explore Meals</Link>
+            {/* sweeet alert */}
+            Swal.fire({
+  title: "Good job!",
+  text: "You clicked the button!",
+  icon: "success"
+});
           </div>
         </div>
       </header>
